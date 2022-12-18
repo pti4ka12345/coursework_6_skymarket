@@ -11,6 +11,7 @@ urlpatterns = [
     path("api/admin/", admin.site.urls),
     path("api/redoc-tasks/", include("redoc.urls")),
     path("api/users/", include("users.urls")),
+    path("api/ads/", include("ads.urls")),
     path("", include("ads.urls")),
     path("", include("users.urls")),
     path("", include("redoc.urls")),
